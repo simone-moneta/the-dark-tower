@@ -1,0 +1,13 @@
+@mixin animate($name, $duration: .4s, $interpolation: ease) {
+	animation-name: $name;
+	animation-duration: $duration;
+	animation-timing-function: $interpolation;
+	animation-fill-mode: forwards;
+}
+
+@keyframes logo{
+
+	0% {opacity: 0; transform: scale(1)}
+	50% {opacity: .8;}
+	100% {opacity: 0; transform: scale(1.4)}
+}

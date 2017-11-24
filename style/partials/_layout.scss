@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding-top: $navHeight;
+}
+
+main{
+	@include container;
+	padding-top: 3em;
+
+	h2{
+		font-size: 3em;
+		margin: 0 0 .5em 0;
+		line-height: 1;
+		padding-bottom: 1.2rem;
+		border-bottom: 1px solid #ddd;
+
+		.sub{
+			display: block;
+			color: #999;
+			margin-top: .8rem;
+			font-family: $font-body;
+			font-weight: 400;
+			font-size: .8rem;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.wrapper{
+	@include container;
+}

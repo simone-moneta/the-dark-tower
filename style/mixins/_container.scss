@@ -1,0 +1,6 @@
+@mixin container($width: 40rem) {
+	position: relative;
+	max-width: $width;
+	padding: 0 1em;
+	margin:auto;
+}

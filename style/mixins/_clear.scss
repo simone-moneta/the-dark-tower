@@ -1,0 +1,11 @@
+@mixin clear {
+	position: relative;
+
+	&:after{
+		display: block;
+		content: "";
+		width: 0;
+		height: 0;
+		clear: both;
+	}
+}

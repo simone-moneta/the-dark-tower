@@ -1,0 +1,30 @@
+body{
+	font-family: $font-body;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font-heading;
+	color: $brand-dark;
+}
+
+ul{
+	padding-left: 0;
+	list-style-type: none;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+
+	a{
+		color: $brand;
+	}
+}
+
+.lead{
+	color: #999;
+	text-transform: uppercase;
+}
